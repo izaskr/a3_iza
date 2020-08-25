@@ -1,0 +1,57 @@
+python main_scenarios.py --lr 0.005 --gamma 0.9 --epoch 50 --hidden 312 --scenario train --pretrained glove.6B.50d
+
+	TRAIN: Test Loss1: 1.302 | Test Acc1: 60.98%
+		Precision, recall, f, support [0.36140357458101463, 0.3635245940790355, 0.3415390836939409]
+
+	BICYCLE:
+------------- Test Loss1: 1.444 | Test Acc1: 55.77%
+-------------- Precision, recall, f, support [0.33426224177868913, 0.2789096994929214, 0.28856707246486807]
+
+	GROCERY
+------------- Test Loss1: 1.128 | Test Acc1: 65.58%
+-------------- Precision, recall, f, support [0.5029449226418924, 0.48769635661327704, 0.4770642694624062]
+
+	TREE
+------------- Test Loss1: 0.912 | Test Acc1: 74.96%
+-------------- Precision, recall, f, support [0.6444966167225525, 0.6282868071471013, 0.6149229193193834]
+
+	BUS
+------------- Test Loss1: 1.254 | Test Acc1: 63.09%
+-------------- Precision, recall, f, support [0.41694555444555437, 0.3763109190192524, 0.3757845953901335]
+
+	FLIGHT
+------------- Test Loss1: 1.357 | Test Acc1: 62.10%
+-------------- Precision, recall, f, support [0.4286681334272705, 0.42361588850283705, 0.40903220025464976]
+
+
+	HAIRCUT
+------------- Test Loss1: 1.559 | Test Acc1: 56.56%
+-------------- Precision, recall, f, support [0.3650699651052095, 0.32328820527669205, 0.3262281519564022]
+
+
+	BATH
+------------- Test Loss1: 1.184 | Test Acc1: 67.39%
+-------------- Precision, recall, f, support [0.5187685771019104, 0.5277724265846437, 0.49963500642422215]
+
+	CAKE
+------------- Test Loss1: 1.269 | Test Acc1: 59.94%
+-------------- Precision, recall, f, support [0.4562444605058241, 0.4699694463121497, 0.43936749215050575]
+
+	LIBRARY
+------------- Test Loss1: 1.634 | Test Acc1: 49.88%
+-------------- Precision, recall, f, support [0.2470494412692125, 0.21102074980276972, 0.21345127359857996]
+
+
+max acc
+
+haircut: 61
+bicyle : 62
+library : 56
+train : 65
+cake : 67
+flight : 62.6
+bus : 65.8
+grocery : 67
+bath : 69
+tree : 74 (glove 50d); --lr 0.005 --gamma 0.9 --epoch 50 --hidden 312
+
