@@ -12,7 +12,7 @@ import json
 import data
 import model_forwardweights
 import model # nn where forward returns softmaxed output
-from hinge_loss import hinge, hinge_max, hinge_dist
+from hinge_loss import hinge_max, hinge_dist
 import itertools
 import matplotlib
 #matplotlib.use('Agg')
